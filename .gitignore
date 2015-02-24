@@ -1,0 +1,6 @@
+/.rebar
+/.eunit
+/ebin
+/priv/*.so
+/c_src/*.o
+/secp256k1

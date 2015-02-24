@@ -1,0 +1,11 @@
+{application, secp256k1,
+ [
+  {description, "Bitcoin secp256k1 NIF binding"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
